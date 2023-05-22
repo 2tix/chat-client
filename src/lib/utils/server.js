@@ -6,7 +6,7 @@ let socket;
 let you = "";
 // we will use this for all our communication with the server
 export const connect = () => {
-    socket = io("ws://localhost:3000/");
+    socket = io("ws://chatserver-2-q5553749.deta.app");
     // we connect to the server
     socket.on("you", res => {
         you = res;
