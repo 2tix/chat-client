@@ -6,8 +6,8 @@ let socket;
 let you = "";
 // we will use this for all our communication with the server
 export const connect = () => {
-    socket = io("ws://chatserver-2-q5553749.deta.app");
-    // we connect to the server
+    socket = io("ws://chat-server-l4z7.onrender.com/");
+    // we connect to the server (replace with your own server adress)
     socket.on("you", res => {
         you = res;
     });
