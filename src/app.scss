@@ -80,3 +80,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+main, #app {
+  width: 100%;
+}
+
+*:focus {
+  outline: none;
+}
